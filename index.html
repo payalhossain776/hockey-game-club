@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hockeys club</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'golf-primary': '#FF4240',
+              }
+            }
+          }
+        }
+      </script>
+      <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+      </style>
+</head>
+<body class="font-manrope">
+    <header class="md:container md:mx-auto">
+        <!-- navbar section -->
+    <nav>
+        <section>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li class="text-3x"><a>Home</a></li> 
+                      <li><a>About</a></li>
+                      <li><a class="">Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contacts</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-3xl">Hockey <span class="text-golf-primary text-3xl">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal text-base px-1">
+                    <li><a class="text-golf-primary">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a class="">Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>contacts</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                <button class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                </button>
+                  <a class="btn bg-golf-primary text-white">Get Ticket</a>
+                </div>
+              </div>
+        </section>
+    </nav>
+    <!-- banner section -->
+    <section class="">
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="../Images/1.png" class="w-full" />
+          <div class="absolute flex lg:justify-start  transform -translate-y-1/2 left-5 right-5 top-1/2 sm:justify-center gap-8  transform -translate-y-1/2 left-4 right-3 top-3/4">
+            <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a> 
+            <a href="#slide2" class="btn btn-circle bg-black  text-white">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="../Images/1.png" class="w-[100%]" />
+          <div class="absolute flex lg:justify-start  transform -translate-y-1/2 left-5 right-5 top-1/2 sm:justify-center gap-8  transform -translate-y-1/2 left-4 right-3 top-3/4">
+            <a href="#slide1" class="btn btn-circle bg-black  text-white">❮</a> 
+            <a href="#slide2" class="btn btn-circle bg-black  text-white">❯</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- professionnal hockey club section -->
+  <section class="text-center my-24">
+    <h2 class="text-3xl font-extrabold mb-5">
+      professional hockeys club
+    </h2>
+    <p class="lg: max-w-3xl mb-12 mx-auto">
+      “The tutorial will be about public relations, which encapsulates all actions and strategies taken to build goodwill,” said Manoli.
+    </p>
+    <!-- card container -->
+    <div class="grid grid-cols-1 lg:grid-cols-4">
+      <div class="card p-5">
+        <figure> <div class="radial-progress text-golf-primary mb-4" style="--value:87;" role="progressbar">87%</div></figure>
+        <div class="card-body justify-center">
+          <h2 class="text-3xl font-bold gap-4"> Prayer faclity</h2>
+          <p>Fenix Outdoor Group is an international group of .</p>
+        </div>
+      </div>
+      <div class="card p-5">
+        <figure>  <div class="radial-progress text-success mb-4" style="--value:95;" role="progressbar">95%</div> </figure>
+        <div class="card-body justify-center">
+          <h2 class="text-3xl font-bold gap-4"> Experienced coach</h2>
+          <p> Showing that they are more than just a hockey club.</p>
+        </div>
+      </div>
+      <div class="card p-5">
+        <figure> <div class="radial-progress text-warning mb-4" style="--value:90;" role="progressbar">90%</div></figure>
+        <div class="card-body justify-center">
+          <h2 class="text-3xl font-bold gap-4">  Scnior Player</h2>
+          <p> “It is important for us to stay relevant in a changing world.</p>
+        </div>
+      </div>
+      <div class="card p-5">
+        <figure> <div class="radial-progress text-info mb-4" style="--value:80;" role="progressbar">80%</div> </figure>
+        <div class="card-body justify-center">
+          <h2 class="text-3xl font-bold gap-4">  Training Ground</h2>
+          <p> "The larger, long-term partnership contracts also open up possibilities.”</p>
+        </div>
+      </div>
+    </div>  
+</section>
+    <!-- program section -->
+    <section class="my-24 space-y-6">
+      <div class="text-center">
+        <h1 class="text-3xl font-bold font-manrope mb-6">
+          program section
+        </h1>
+        <p class="lg:max-w-3xl mx-auto text-base">
+          The E.H.C. Alliance is intended to represent its member clubs and to look after their interests through direct representation and active participation in all areas where decisions are made which affect them.
+        </p>
+      </div> 
+      <div class="grid gap-6 grid-cols-1 lg:grid-cols-2">
+        <div class="hero w-[full] h-[338px] " style="background-image: url(../Images/2.png);">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold">Junior hockey club</h1>
+              <p class="mb-5">The goals of junior hockey are to promote, develop, and administer the domestic USA Hockey program for junior-aged players, teams, and leagues. USA Hockey's Junior Program is available to athletes.</p>
+              <button class="btn bg-golf-primary text-white border-0">Register Now!</button>
+            </div>
+          </div>
+        </div>
+        <div class="hero w-[full] h-[338px] " style="background-image: url(../Images/3.png);">
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="mb-5 text-5xl font-bold">Teenager hockey culb</h1>
+              <p class="mb-5">Two South Carolina youth hockey associations get assistance from local ECHL teams as well as the Carolina Hurricanes</p>
+              <button class="btn bg-golf-primary text-white border-0">Register Now!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero w-auto lg:h-[530px] h-[338px] space-y-6" style="background-image: url(../Images/4.png);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md ">
+            <h1 class="mb-5 text-5xl font-bold">Professional hockey club</h1>
+            <p class="mb-5">Almost the full squad reunited  just a couple of notable omissions but with recent squad movements supporting the club, it was great to have some of the old guard back</p>
+            <button class="btn bg-golf-primary text-white border-0">Register Now!</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    </header>
+    </body>
+    </html>
